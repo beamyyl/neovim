@@ -14,4 +14,6 @@ require("tokyonight").setup({
   },
 })
 
+vim.opt.statusline = "%f %m %= %y %p%% %l:%c"
+
 vim.cmd([[colorscheme tokyonight]])
